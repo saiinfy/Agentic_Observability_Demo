@@ -1,0 +1,33 @@
+# ----------------------------
+# Core Agentic Framework
+# ----------------------------
+langchain>=0.1.16
+langgraph>=0.0.40
+
+# ----------------------------
+# LLM Integration (Gemini via LangChain)
+# ----------------------------
+langchain-google-genai>=0.0.9
+
+# ----------------------------
+# Oracle Database Connectivity
+# ----------------------------
+oracledb>=2.0.0
+
+# ----------------------------
+# Vector Embeddings
+# ----------------------------
+sentence-transformers>=2.5.1
+torch>=2.1.0
+
+# ----------------------------
+# Observability (OpenTelemetry)
+# ----------------------------
+opentelemetry-api>=1.39.0
+opentelemetry-sdk>=1.39.0
+opentelemetry-exporter-otlp>=1.39.0
+
+# ----------------------------
+# Utilities
+# ----------------------------
+python-dotenv>=1.0.1
